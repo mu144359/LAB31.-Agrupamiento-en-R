@@ -1,4 +1,4 @@
-# Hecho con gusto por Selene Muñoz Ortega (UAEH)
+# Hecho con gusto por Selene MuÃ±oz Ortega (UAEH)
 
 #############################################
 #LABORATORIO: Agrupamiento en R             #
@@ -22,7 +22,7 @@ data2013 <- as.data.table(data2013)
 
 class(data2013)
 
-#Agrupar varibales 
+#Agrupar variables 
 resultados2013 <- data2013 %>% 
   group_by(location_name) %>% 
   summarise(suma_GCI_2013= sum(GCI_2013, na.rm = TRUE),
